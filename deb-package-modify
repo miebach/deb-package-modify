@@ -5,6 +5,7 @@
 # see http://ubuntuforums.org/showthread.php?t=636724
 
 # select your preferred editor:
+#EDITOR=emacs
 #EDITOR=gedit
 #EDITOR=nano
 EDITOR=vi
