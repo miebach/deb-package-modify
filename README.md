@@ -9,9 +9,11 @@ Make changes inside an existing deb file.
 - after you save the control file, the deb gets repacked
 
 See http://ubuntuforums.org/showthread.php?t=110458 
+
 See http://ubuntuforums.org/showthread.php?t=636724
 
 Thanks to bean1975 http://ubuntuforums.org/member.php?=58325
+
 Thanks to Loevborg http://ubuntuforums.org/member.php?u=103957
 
 Installation: 
@@ -25,4 +27,8 @@ Usage:
 
     deb-package-modify package.deb
 
-Make changes and save, then use package.modified.deb
+Make changes and save, then use your new package, for example:
+
+  sudo dpkg -i package.modified.deb
+  sudo apt-get install -f
+
