@@ -26,7 +26,8 @@ Edit the file deb-package-modify after line 7 to set your preferred editor.
 Installation: 
 -------------
 
-    sudo cp deb-package-modify /usr/local/bin/
+    cd /usr/local/bin/
+    sudo curl -O https://raw.githubusercontent.com/miebach/deb-package-modify/master/deb-package-modify
     sudo chmod a+x /usr/local/bin/deb-package-modify
 
 Usage:
